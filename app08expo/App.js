@@ -12,8 +12,8 @@ export default function App() {
     <View style={styles.container}>
       <Text>Salam!!!!</Text>
       <Text>Count: {counter}</Text>
-      <Button title="➕" onPress={() => setCounter(counter + 1)}></Button>
-      <Button title="➖" onPress={() => setCounter(counter - 1)}></Button>
+      <Button title="➕" onPress={() => setCounter(counter + 1)} />
+      <Button title="➖" onPress={() => setCounter(counter - 1)} />
       <StatusBar style="auto" />
     </View>
   );
