@@ -1,0 +1,26 @@
+React Native
+    React Native Cli
+    Expo
+
+
+
+Cli
+    CPU Virtualization to BIOS - https://www.bleepingcomputer.com/tutorials/how-to-enable-cpu-virtualization-in-your-computer-bios/
+    https://reactnative.dev/docs/environment-setup
+    Android
+        Android Studio
+            SDK
+        Java Development Kit - JDK
+        Gradle
+
+        ENV Variable 
+            ANDROID_HOME
+            JAVA_HOME
+            
+            PATH +> 
+                %JAVA_HOME%\bin
+                %ANDROID_HOME%\platform-tools
+
+            Gradle
+
+
