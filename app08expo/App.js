@@ -1,14 +1,19 @@
+import { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
 //React Native vs React
 //  Html tag -> Tag Native
 //  className -> style (no css)
 //  onClick -> onPress
 export default function App() {
+  const [counter, setCounter] = useState(0);
   return (
     <View style={styles.container}>
       <Text>Salam!!!!</Text>
+      <Text>Count: {counter}</Text>
+      <Button title="➕" onPress={() => setCounter(counter + 1)}></Button>
+      <Button title="➖" onPress={() => setCounter(counter - 1)}></Button>
       <StatusBar style="auto" />
     </View>
   );
